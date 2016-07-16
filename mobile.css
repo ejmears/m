@@ -92,6 +92,7 @@ li {
     color: #FFF;
     text-align: center;
     padding: 16ox 16px;
+	font-size: 2em;
     text-decoration: none;
 }
 	
@@ -105,10 +106,9 @@ Flexboxes
 	display: inline-block;
 	vertical-align: top;
 	padding: 10px;
-	height: 50%;
-	width: 50%;
-	max-height: 200px;
-	max-width: 200px;
+	height: auto;
+	width: 200px;
+	max-width: 45%;
 }
 
 .flex-container {
