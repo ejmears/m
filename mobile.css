@@ -1,0 +1,164 @@
+/*
+	Mobile Stylesheet
+*/
+
+body {
+	background: #FFF5C6;
+	font-family: "Lucida Sans", san-serif;
+}
+
+h1, h2, h3 {
+		font-variant: small-caps;
+		margin-left: 0 auto; 
+		margin-right: 0 auto; 
+		padding-left: 0 auto; 
+		padding-right: 0 auto; 
+		text-align: center;
+	}
+	
+p {
+	margin-left: 0 auto; 
+	margin-right: 0 auto; 
+	padding-left: 0 auto; 
+	padding-right: 0 auto; 
+	padding-top: 5px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+a:link {
+		color: #D8A800; 
+		text-decoration: none;
+	}
+a:visited {
+		color: #D8A800; 
+		text-decoration: none;
+	}
+a:hover {
+		color: #D8A800; 
+		text-decoration: underline;
+	}
+a:active {
+		color: #D8A800; 
+		text-decoration: underline;
+	}
+	
+img {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; 
+	border-radius: 15px;
+}
+
+/*Topbar List*/
+
+.nav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+	width: 100%;
+	overflow: hidden;
+	background-color:#103466;
+	color:#FFF;
+	position: fixed;
+	z-index:1000;
+    top: 0;
+	left: 0;
+	right: 0;
+    width: 100%;
+	-webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.66); 
+	-moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.66); 
+	box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.66);
+	text-align: center; 
+}
+
+li {
+    display: inline-block;
+	margin: 0 auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+	
+/*
+
+Flexboxes
+
+*/
+
+.box {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	height: 50%;
+	width: 50%;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.flex-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+}
+
+.flex-item {
+	font-size: .9em;
+}
+
+/*
+
+Containers
+
+*/
+
+#main {
+	margin: 0;
+	margin-top: 110px;
+	margin-bottom: 10%;
+}
+
+#header {
+	position: absolute;
+	height:100px;
+	width:100%;
+	top:0;
+	left:0;
+	right:0;
+	text-align: center;
+}
+
+#footer {
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0;
+	height:10%;
+	position:relative;
+}
+
+#footer p {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	font-size: .8em; 
+	font-family: "Perpetua", serif;
+}
+
+#header a {
+	color: #FFF
+}
