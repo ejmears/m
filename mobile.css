@@ -65,9 +65,12 @@ img {
 	position: absolute;
     top: 0;
 	left: 0;
+	right: 0;
 	width: 100%;
 	height: auto;
     padding: 0 auto;
+	padding-left: 0px;
+	margin-left: 0px;
     margin: 0 auto;
     display: -webkit-box;
     display: -moz-box;
@@ -91,7 +94,7 @@ li {
     display: block;
     color: #FFF;
     text-align: center;
-    padding: 16ox 16px;
+    padding: 16px 16px;
 	font-size: 1.5em;
     text-decoration: none;
 }
