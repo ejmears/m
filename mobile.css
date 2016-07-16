@@ -5,7 +5,6 @@
 body {
 	background: #FFF5C6;
 	font-family: "Lucida Sans", san-serif;
-	max-width: 100%;
 }
 
 h1, h2, h3 {
@@ -64,11 +63,9 @@ img {
 	background-color:#103466;
 	color:#FFF;
 	position: absolute;
-	overflow-x: hidden;
     top: 0;
 	left: 0;
 	width: 100%;
-	max-width: 100%;
 	height: auto;
     padding: 0 auto;
     margin: 0 auto;
@@ -117,8 +114,7 @@ Flexboxes
 .flex-container {
   display: flex;
   position: relative;
-  width: 97%;
-  max-width: 97%;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
@@ -136,9 +132,9 @@ Containers
 */
 
 #main {
+	margin: 5%;
 	margin-top: 12%;
 	margin-bottom: 10%;
-	max-width: 100%;
 }
 
 #footer {
