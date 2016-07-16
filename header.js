@@ -1,1 +1,1 @@
-document.write('<ul class="nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="eightball.html">Eight Ball</a></li><li><a href="dice.html">Dice</a></li></ul>')
+document.write('<ul class="nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>')
