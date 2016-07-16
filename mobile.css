@@ -58,32 +58,36 @@ img {
 
 .nav {
     list-style-type: none;
-    margin: 0 auto;
-    padding: 0 auto;
-	width: 100%;
-	overflow: hidden;
 	background-color:#103466;
 	color:#FFF;
-	position: fixed;
-	z-index:1000;
+	position: absolute;
     top: 0;
 	left: 0;
 	right: 0;
-    width: 100%;
+	width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 	-webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.66); 
 	-moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.66); 
-	box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.66);
-	text-align: center; 
+	box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.66); 
 }
 
 li {
-    display: inline-block;
-	margin: 0 auto;
+	padding: 1%;
+    margin: 2%;
+    line-height: 20px;
 }
 
-li a {
+.nav a {
     display: block;
-    color: white;
+    color: #FFF;
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
@@ -126,19 +130,9 @@ Containers
 */
 
 #main {
-	margin: 0;
-	margin-top: 110px;
+	margin: 5%;
+	margin-top: 10%;
 	margin-bottom: 10%;
-}
-
-#header {
-	position: absolute;
-	height:100px;
-	width:100%;
-	top:0;
-	left:0;
-	right:0;
-	text-align: center;
 }
 
 #footer {
@@ -159,6 +153,64 @@ Containers
 	font-family: "Perpetua", serif;
 }
 
-#header a {
-	color: #FFF
-}
+/* Dice */
+
+.diceimage {  
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+  }
+  
+.die {
+		color: #000000;
+		text-align: center;
+		font-family: "Lucida Sans", sans-serif;
+    	width: 120px;
+    	height: 120px;
+    	background: #ffffff;
+		-webkit-border-radius: 15px; 
+		-moz-border-radius: 15px; 
+		border-radius: 15px; 
+		border: 1px black solid;
+		padding: 4px; 
+		margin: 4px; 
+	}
+#dicecontainer {
+		margin: 0 auto; 
+		padding 0 auto; 
+		width: 300px;
+	}
+	
+/* Eightball */
+
+.answer {
+		background-color: #FFFFFF; 
+		text-align: center; 
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		padding: 4px; 
+		margin: 4px; 
+		color: #000000; 
+		font-family: "Courier Prime", "Courier New", "FixedSys", serif;
+		text-transform: uppercase;
+	}
+	
+input {
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		padding: 4px; 
+		margin: 4px;
+	}
+	
+.button {
+		background-color: #FFF5C6; 
+		font-variant: small-caps; 
+		border-width: 3px; 
+		border-color: #FFE4AA; 
+		border-style: outset; 
+		font-weight: bold;
+	}
